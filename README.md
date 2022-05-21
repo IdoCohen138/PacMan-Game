@@ -5,10 +5,10 @@
 
 # PacMan Game
 
-##link to game
+## link to game
  https://web-development-environments-2022.github.io/assignment2-315450569_316586908/
 
-##Tasks
+## Tasks
 
     1.Login page, Home Page - Special design using JS.
     2.Submit page - use JQuery and Regex Exprision to Identify the user details as requested.
@@ -17,7 +17,7 @@
     5.Game Page - using JS to Design and add functionality to our game like notes below.
     6.Desgin our page with advanced design principles using Java Script and JQuery.
     
-##Functionality
+## Functionality
 
     • Add a timer image that adds 30 seconds to game time.
     • Candy (sliding figure) that moves randomly on the board and adds 50 points in its eating.
