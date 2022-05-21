@@ -1,13 +1,14 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=7802215&assignment_repo_type=AssignmentRepo)
 # Assignment2
  
- IDs - 315450569 & 316586908 
 
-Names - Tal Ben Hamou & Ido Cohen
 
-https://web-development-environments-2022.github.io/assignment2-315450569_316586908/
+# PacMan Game
 
-Tasks
+##link to game
+ https://web-development-environments-2022.github.io/assignment2-315450569_316586908/
+
+##Tasks
 
     1.Login page, Home Page - Special design using JS.
     2.Submit page - use JQuery and Regex Exprision to Identify the user details as requested.
@@ -16,7 +17,7 @@ Tasks
     5.Game Page - using JS to Design and add functionality to our game like notes below.
     6.Desgin our page with advanced design principles using Java Script and JQuery.
     
-Functionality
+##Functionality
 
     • Add a timer image that adds 30 seconds to game time.
     • Candy (sliding figure) that moves randomly on the board and adds 50 points in its eating.
