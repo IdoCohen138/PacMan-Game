@@ -1,0 +1,625 @@
+html{
+	margin: 0%;
+	padding: 0%;
+    max-width: 100%;
+    background-image: url("images/background-body3.jpg");
+    background-repeat: repeat;
+    background-size:auto;
+}
+body{
+    background-color: #000000;
+    margin: 23px;
+    margin-left: 30px;
+    margin-right: 30px;
+    /* max-width: 100%; */
+    /* max-height: 100%; */
+
+}
+#menu 
+{
+    /* position:sticky; */
+    z-index: 1;
+	width: 100%;
+	height: 150px;
+	display: flex;
+	align-items: center;
+	justify-content:center;
+	font-size: 1.08em;
+    transition: top ;
+}
+.menuNav {
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+    padding: 10%;
+    margin: 15%;
+}
+.menuLink {
+	list-style: none;
+	margin: 0;
+}
+.menuLink button {
+	color: rgb(255, 255, 255);
+    background-color: #232323;
+	text-decoration: none;
+	/* margin: 10%; */
+    text-align: center;
+	box-shadow: 0px 0px 10px currentcolor;
+  	border: 4px solid ;
+  	padding: 15px;
+	font-family:Arial, Helvetica, sans-serif;
+	text-shadow: 1px 1px 1px #ffffff, 0 0 25px #ffffff, 0 0 5px #000000;
+	font-size: 100%;
+    margin: 0 auto;
+    display: inline;
+}
+.menuLink :hover{
+    background-color: white;
+    color: black;
+}
+.ig{
+    align-items: center;
+    width: 900px ;
+    height: 450px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 2%;
+    /* box-shadow: 0 0 8px 8px white inset; */
+}
+.homelogo_div , .homelogo_div_img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#home_div{
+    margin-top: 100px;
+}
+
+
+h3{
+    color: rgb(222, 225, 225);
+    text-shadow: 0px 0px 0px #ffffff, 0 0 2px #ffffff, 0 0 1px #000000;
+    font-size: x-large;
+}
+.twoDives{
+    margin: 0px;
+    background: #000000;
+    margin-top: 0%;
+    
+}
+.homelogo_div button {
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+    background-color: #232323;
+	font-size: 1.30em;
+	margin: 10%;
+    text-align: center;
+	box-shadow: 0px 0px 10px ;
+  	border: 5px solid ;
+  	padding: 15px;
+	overflow: hidden;
+	font-family:Arial, Helvetica, sans-serif;
+	text-shadow: 1px 1px 2px #ffffff, 0 0 25px #ffffff, 0 0 5px #000000;
+	font-size: 140%;
+}
+.homelogo_div :hover{
+    background-color: white;
+    color: black;
+}
+#login_button , #clear_button{
+    margin-right: 30px;
+}
+#register_button , #submit_button{
+    margin-left: 30px;
+}
+.register_div{
+    align-items: center;
+    justify-content: center; 
+}
+
+.register_div th{
+    text-align: left;
+}
+table{
+    border-spacing: 30px;
+    font-size: x-large;
+    color: white;
+}
+input{
+    border: none;
+    background-color: #000000;
+    color: white;
+    /* text-decoration: underline; */
+    height: 30px;
+    border-bottom: 2px solid white;
+}
+.login_button_div button{
+    color: rgb(255, 255, 255);
+	text-decoration: none;
+    background-color: #232323;
+	font-size: 1.30em;
+	margin: 0px;
+    text-align: center;
+	box-shadow: 0px 0px 10px ;
+  	border: 5px solid ;
+  	padding: 15px;
+	overflow: hidden;
+	font-family:Arial, Helvetica, sans-serif;
+	text-shadow: 1px 1px 2px #ffffff, 0 0 25px #ffffff, 0 0 5px #000000;
+	font-size: 140%;
+    margin-left: 10px;
+
+}
+.login_button_div :hover{
+    background-color: white;
+    color: black;
+}
+
+
+::-webkit-datetime-edit { padding: 1em;  }
+::-webkit-datetime-edit-text { color: rgb(255, 255, 255); padding: 0 0.3em;  }
+::-webkit-inner-spin-button { display: none; }
+::-webkit-calendar-picker-indicator { filter : invert(1) ; }
+
+.register_buttons button {
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+    background-color: #232323;
+	font-size: 1.30em;
+	margin: 10%;
+    text-align: center;
+	box-shadow: 0px 0px 10px ;
+  	border: 5px solid ;
+  	padding: 15px;
+	overflow: hidden;
+	font-family:Arial, Helvetica, sans-serif;
+	text-shadow: 1px 1px 2px #ffffff, 0 0 25px #ffffff, 0 0 5px #000000;
+	font-size: 140%;
+    margin-top: 3%;
+}
+.register_buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.submit_button :hover{
+    background-color: white;
+    color: rgb(0, 77, 0);
+}
+
+.submit_button_details button {
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+    background-color: #232323;
+	font-size: 1.30em;
+	margin: 10%;
+    text-align: center;
+	box-shadow: 0px 0px 10px ;
+  	border: 5px solid ;
+  	padding: 15px;
+	overflow: hidden;
+	font-family:Arial, Helvetica, sans-serif;
+	text-shadow: 1px 1px 2px #ffffff, 0 0 25px #ffffff, 0 0 5px #000000;
+	font-size: 140%;
+    margin-top: 3%;
+}
+.submit_button_details{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.startgame_button :hover, .random_button :hover{
+    background-color: white;
+    color: rgb(0, 106, 255);
+}
+#random_button{
+    margin: 0 auto;
+    display: inline;
+    margin-left: 15px;
+    
+}
+#submit_button_details{
+    margin: 0 auto;
+    display: inline;
+    margin-right: 15px;
+    
+}
+
+
+
+.clear_button :hover{
+    background-color: white;
+    color: rgb(107, 0, 0);
+}
+
+.arrows button {
+	color: rgb(0, 106, 255);
+    background-color: #434343;
+	text-decoration: none;
+	margin: 10%;
+    text-align: center;
+	box-shadow: 0px 0px 10px currentcolor;
+  	border: 4px solid rgb(0, 106, 255);
+  	padding: 15px;
+	font-family:Arial, Helvetica, sans-serif;
+	text-shadow: 1px 1px 1px #6d4f4f, 0 0 25px #ffffff, 0 0 5px #000000;
+	font-size: 140%;
+}
+.arrows_s button {
+	color: rgb(0, 106, 255);
+    background-color: #434343;
+	text-decoration: none;
+	margin: 10%;
+    text-align: center;
+	box-shadow: 0px 0px 10px currentcolor;
+  	border: 4px solid rgb(0, 106, 255);
+  	padding: 13px;
+	font-family:Arial, Helvetica, sans-serif;
+	text-shadow: 1px 1px 1px #6d4f4f, 0 0 25px #ffffff, 0 0 5px #000000;
+}
+
+.newgame button {
+	color: rgb(0, 106, 255);
+    background-color: #434343;
+	text-decoration: none;
+	/* margin: 10%; */
+    text-align: center;
+	box-shadow: 0px 0px 10px currentcolor;
+  	border: 4px solid rgb(0, 106, 255);
+  	/* padding: 13px; */
+    height: 60px;
+    width: 150px;
+    font-size: large;
+	font-family:Arial, Helvetica, sans-serif;
+	text-shadow: 1px 1px 1px #6d4f4f, 0 0 25px #ffffff, 0 0 5px #000000;
+}
+
+.arrows_s th{
+    padding: 0px;
+    margin: 0px;
+    width: 10px;
+}
+
+.arrows, .arrows_s{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    border-spacing: 0px;
+    font-size: x-large;
+    color: white;
+}
+
+h4{
+    color: white;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+}
+.numberOfBalls{
+    color: white;    
+}
+
+.details{
+   
+}
+
+
+#ball5,#ball15,#ball25{
+    border: none;
+    background-color: #000000;
+    color: white;
+    height: 30px;
+    
+}
+
+.div0 {
+    background-color: #232323;
+    display: flex;
+	justify-content: center;
+}
+
+.div1 {
+    float: left;
+    width: 48%;
+    margin-bottom: 16px;
+    padding: 11px;
+}
+
+.div2 {
+    box-shadow: 0px 8px 10px 3px rgba(255, 255, 255, 0.2);
+    margin: 4px;
+}
+
+
+.aboutSec {
+    padding: 55px;
+    text-align: center;
+    background-color: #232323;
+    color: white;
+}
+
+.div3 {
+    padding: 0 10px;
+    color: aliceblue;
+    background-color: #232323;
+}
+
+.div3::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.id {
+    color: rgb(114, 144, 176);
+}
+#ido, #tal {
+    float: left;
+    width:  665px;
+    height: 600px;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    overflow: auto;
+    display: inline;
+    margin: 0 auto;
+}
+.headline{
+    color: rgb(255, 79, 79);
+}
+
+#about_page{
+    display: none; 
+    position: fixed; 
+    z-index: 3; 
+    padding-top: 10px; 
+    left: 0;
+    top: 20px;
+    width: 70%; 
+    height: 70%; 
+    max-width: 70%;
+    max-height: 70%;
+    overflow: auto; 
+    background-color: rgb(243, 243, 243); 
+    background-color: rgba(118, 137, 127, 0.4); 
+}
+.aboutClass-inner {
+    position: relative;
+    margin: auto;
+    border: 0px solid #888;
+    width: 100%;
+    max-width: 100%;
+  }
+
+.close{
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+      
+.topright {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: rgb(255, 79, 79);
+    border-radius: 50px;
+
+}
+#about_para{
+    font-family:Arial, Helvetica, sans-serif;
+    font: bold;
+    font-size: larger;
+
+}
+
+#contact_id{
+    background-color: #000000;
+    margin-bottom: 80px;
+    position: static;
+
+}
+
+.menuLink{
+    color: white;
+    font-size: 28px
+}
+
+.contact_button{
+    background-color: #000000;
+    border-radius: 50px;
+
+}
+
+.socialMedia{
+	width: 90px;
+	height: 90px;
+	margin-left: 30px;
+
+	opacity: 0.6;
+}
+.socialMedia:hover{
+	background-color: #efe2e2;
+	border-radius: 180px;
+	opacity: 1;
+}
+
+#gameStats{
+    z-index: 2;
+    float: left;  
+	color: rgb(0, 106, 255);
+    background-color: #252525;
+	box-shadow: 0px 0px 10px currentcolor;
+  	border: 4px solid rgb(0, 106, 255);
+	font-family:Arial, Helvetica, sans-serif;
+    font-size: large;
+    margin-right: 50px;
+    height: 100px;
+    width: 180px;
+    display: block;
+    padding: 15px;
+    margin-top: 100px;
+    
+}
+#canvas{
+    margin-right: 100px;
+    display: inline;
+}
+
+#game{
+    float: left;  
+    display: inline;
+}
+
+#setting_game {
+    z-index: 2;
+    /* width: 20%; */
+    float: left;  
+    padding: 20px;
+	color: rgb(0, 106, 255);
+    background-color: #252525;
+	text-decoration: none;
+	box-shadow: 0px 0px 10px currentcolor;
+  	border: 4px solid rgb(0, 106, 255);
+	font-family:Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    margin-right: 30px;
+    height: 90%;
+    display: inline;
+}
+
+#ball5_s,#ball15_s,#ball25_s{
+    border: none;
+    background: none;
+}
+#arrowup_s, #arrowdown_s, #arrowleft_s, #arrowright_s{
+    font-size: medium;
+
+}
+
+#GameOn{
+    -webkit-transform:scale(0.7);
+    -moz-transform:scale(0.7);
+    -ms-transform:scale(0.7);
+    transform:scale(0.7); 
+    
+}
+
+
+#container_s{
+    display: flex;
+	justify-content: center;
+
+}
+#lblScore, #lblTime{
+    border-bottom:none;
+    text-align: center;
+}
+
+.audioGame {
+    position: relative;
+    width: 50%;
+    margin-top: 20px;
+  }
+  
+.audioGame img {
+    width: 100%;
+    height: auto;
+}
+
+.audio {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    /* background-color: rgb(255, 255, 255); */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+
+.audioGame button {
+    margin-top: 10px;
+	color: rgb(255, 255, 255);
+    background-color: #434343;
+	text-decoration: none;
+    text-align: center;
+	box-shadow: 0px 0px 10px currentcolor;
+  	border: 4px solid rgb(0, 106, 255);
+    height: 50px;
+    width: 80px;
+    font-size: large;
+	font-family:Arial, Helvetica, sans-serif;
+	text-shadow: 1px 1px 1px #6d4f4f, 0 0 25px #ffffff, 0 0 5px #000000;
+}
+
+
+
+#winner, #loser{
+    display: none; 
+    position: fixed; 
+    z-index: 3; 
+    padding-top: 10px; 
+    left: 0;
+    top: 20px;
+    width: 70%; 
+    height: 70%; 
+    max-width: 70%;
+    max-height: 70%;
+    overflow: auto; 
+    background-color: rgb(243, 243, 243); 
+    background-color: rgba(118, 137, 127, 0.4); 
+}
+
+.closeWin, .closelose{
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+      
+.toprightWin, .toprightLose{
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: rgb(255, 79, 79);
+    border-radius: 50px;
+
+}
+#WinImgae{
+    width: 900px;
+    height: 600px;
+}
+#loseImage{
+    width: 900px;
+    height: 700px;
+}
+
+#los{
+    color: rgb(255, 43, 43); 
+    font-size: 38px;
+    display: block;
+    background-color: #efe2e2;
+  
+}
